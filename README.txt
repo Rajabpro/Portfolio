@@ -30,8 +30,7 @@ https://ka-body.is-best.net/
 Warr Gamer:
 https://warr.gamer.free/
 
-Rajbunny:
-https://rajbunny.likesyou.org/
+
 
 GITHUB PAGES
 ------------
