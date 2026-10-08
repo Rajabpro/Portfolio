@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ssentamu Ismail Rajab — Web Developer portfolio.">
+  <title>Ssentamu Ismail Rajab | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="logo" href="#home">SSENTAMU ISMAIL RAJAB<span>.</span></a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="talk-button desktop-talk" href="#contact">Let's Talk ↗</a>
+
+      <button class="menu-toggle" id="menuToggle"
+              aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= MOBILE MENU ================= -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu-inner">
+      <div class="mobile-menu-label">NAVIGATION</div>
+
+      <a href="#home">Home <span></span></a>
+      <a href="#about">About <span></span></a>
+      <a href="#skills">Skills <span></span></a>
+      <a href="#projects">Projects <span></span></a>
+      <a href="#contact">Contact <span></span></a>
+
+      <a class="mobile-talk" href="#contact">Let's Talk <span>↗</span></a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <!--
+        IMPORTANT:
+        These are REAL HTML elements behind the hero.
+        They are decorative only and are NOT raw code accidentally
+        printed on the page.
+      -->
+      <div class="code-background" aria-hidden="true">
+        <div class="code-line line-a">
+          <span>&lt;section</span> class="hero"&gt;
+        </div>
+        <div class="code-line line-b">
+          <span>&lt;div</span> class="container"&gt;
+        </div>
+        <div class="code-line line-c">
+          <span>const</span> developer = "Ismail";
+        </div>
+        <div class="code-line line-d">
+          <span>function</span> createWebsite() {
+        </div>
+        <div class="code-line line-e">
+          &nbsp;&nbsp;design(); &nbsp; code(); &nbsp; launch();
+        </div>
+        <div class="code-line line-f">}</div>
+        <div class="code-line line-g">
+          HTML &nbsp; CSS &nbsp; JavaScript &nbsp; WordPress
+        </div>
+        <div class="code-line line-h">
+          responsive: true;
+        </div>
+        <div class="code-line line-i">
+          &lt;/section&gt;
+        </div>
+      </div>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="availability">
+            <span></span>
+            AVAILABLE FOR NEW PROJECTS
+          </div>
+
+          <h1 class="hero-title">
+            <span>I BUILD</span>
+            <span class="outline">DIGITAL</span>
+            <span>EXPERIENCES.</span>
+          </h1>
+
+          <div class="hero-bottom">
+            <p>
+              I'm <strong>Ssentamu Ismail Rajab</strong>, a web developer focused on
+              creating modern, responsive and engaging websites using WordPress,
+              Elementor, HTML, CSS and JavaScript.
+            </p>
+
+            <a class="view-work" href="#projects">
+              <strong>VIEW<br>WORK</strong>
+              <span>↓</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Profile card -->
+        <div class="profile-area">
+          <div class="profile-card">
+            <div class="card-top">
+              <span>WEB DEVELOPER</span>
+              <span>UG</span>
+            </div>
+
+            <div class="profile-photo">
+              <img src="rajabpic.png" alt="Ssentamu Ismail Rajab"
+                   onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="photo-fallback">
+                <span>IR</span>
+              </div>
+            </div>
+
+            <div class="card-bottom">
+              <div>
+                <small>BASED IN</small>
+                <strong>Uganda</strong>
+              </div>
+              <div class="lime-dot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Marquee background image:
+           Put your image at images/marquee-bg.jpg -->
+      <div class="hero-marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>WORDPRESS</span><b>✳</b>
+          <span>WEB DESIGN</span><b>✳</b>
+          <span>ELEMENTOR</span><b>✳</b>
+          <span>HTML / CSS / JS</span><b>✳</b>
+          <span>WORDPRESS</span><b>✳</b>
+          <span>WEB DESIGN</span><b>✳</b>
+          <span>WORDPRESS</span><b>✳</b>
+          <span>WEB DESIGN</span><b>✳</b>
+          <span>ELEMENTOR</span><b>✳</b>
+          <span>HTML / CSS / JS</span><b>✳</b>
+          <span>WORDPRESS</span><b>✳</b>
+          <span>WEB DESIGN</span><b>✳</b>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-label"> ABOUT ME</div>
+        <div class="about-grid">
+          <div>
+            <p class="eyebrow">WHO I AM</p>
+          </div>
+          <div>
+            <h2>I turn ideas into <span>web experiences.</span></h2>
+            <p class="body-copy">
+              I am building my skills through real projects in WordPress, Elementor,
+              HTML, CSS and JavaScript. My goal is to create websites that are
+              visually strong, responsive and easy to use.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-label">  SKILLS</div>
+        <h2>TOOLS I <span>USE.</span></h2>
+
+        <div class="skills-grid">
+          <article><span>01</span><h3>WordPress</h3><p>CMS websites and content-driven experiences.</p></article>
+          <article><span>02</span><h3>Elementor</h3><p>Responsive visual layouts and page building.</p></article>
+          <article><span>03</span><h3>HTML & CSS</h3><p>Clean structure, styling and responsive design.</p></article>
+          <article><span>04</span><h3>JavaScript</h3><p>Interactions, menus and dynamic front-end behavior.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-label">02 — SELECTED WORK</div>
+        <h2>MY <span>PROJECTS.</span></h2>
+
+        <!-- =====================================================
+             PROJECTS
+             Put each project image inside the "images" folder.
+             Example:
+             images/ka-body.jpg
+             images/warr-gamer.jpg
+             images/rajbunny.jpg
+             ===================================================== -->
+
+        <div class="project-list">
+
+          <!-- PROJECT 01 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="carpic.png" alt="KA Body automotive accessories website"
+                   onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+              <span>KA BODY</span>
+            </div>
+
+            <div class="project-number">01</div>
+
+            <div class="project-content">
+              <small>AUTOMOTIVE / WORDPRESS</small>
+              <h3>KA BODY</h3>
+              <p>
+                A modern automotive accessories website designed to present
+                car products through a premium, dark and cinematic visual style.
+              </p>
+            </div>
+
+            <a class="project-arrow"
+               href="https://ka-body.is-best.net/"
+               target="_blank" rel="noopener"
+               aria-label="Open KA Body project">↗</a>
+          </article>
+
+
+          <!-- PROJECT 02 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="warpic.png" alt="Warr Gamer gaming website"
+                   onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+              <span>WARR GAMER</span>
+            </div>
+
+            <div class="project-number">02</div>
+
+            <div class="project-content">
+              <small>GAMING / INTERACTIVE</small>
+              <h3>WARR GAMER</h3>
+              <p>
+                A cinematic gaming website concept focused on storytelling,
+                dramatic visuals, characters, animation and an immersive user experience.
+              </p>
+            </div>
+
+            <a class="project-arrow"
+               href="https://warr.gamer.free/"
+               target="_blank" rel="noopener"
+               aria-label="Open Warr Gamer project">↗</a>
+          </article>
+
+
+         
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-label"> CONTACT</div>
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+        <h2>LET'S CREATE <span>SOMETHING GREAT.</span></h2>
+        <a class="email-link" href="mailto:ismapro745@gmail.com">ismapro745@gmail.com ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>© <span id="year"></span> Ssentamu Ismail Rajab</div>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
